@@ -1,0 +1,18 @@
+.card-content {
+  font-size: 0.8rem;
+
+}
+
+.table-titles {
+  background: $c-app-table-title;
+  color: $c-white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-items {
+  background: $c-app-grey;
+  color: $c-white;
+  display: flex;
+  justify-content: space-between;
+}

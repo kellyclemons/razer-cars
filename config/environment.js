@@ -2,6 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
+    apiUrl: 'https://razerapi.herokuapp.com/kelly/basic',
     modulePrefix: 'razer-cars',
     environment: environment,
     rootURL: '/',
