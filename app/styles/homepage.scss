@@ -1,0 +1,33 @@
+.card-container {
+  margin: 2rem;
+}
+
+.card {
+  border: 1px solid $c-app-grey;
+}
+
+.card-content {
+  margin: 1rem;
+}
+.card-heading {
+  font-size: 1.2rem;
+  border-bottom: 1px solid $c-app-grey;
+  margin: 0;
+  padding: 1rem;
+  background: $c-app-lightgrey;
+}
+
+.card-content__title {
+  font-size: 1rem;
+}
+
+.card-content__text {
+  font-size: 0.8rem;
+}
+
+.card-content__button {
+  border: none;
+  background: $c-app-button;
+  padding: 0.5rem;
+  color: $c-white;
+}
