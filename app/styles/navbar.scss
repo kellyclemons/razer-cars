@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  background: $c-app-blue;
+  color: white;
+
+  > * {
+    margin: 0.5rem;
+  }
+}
+
+.nav-list {
+  display: flex;
+
+  &__item {
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+}
