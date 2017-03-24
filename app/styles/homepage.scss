@@ -24,6 +24,7 @@
 
 .card-content__text {
   font-size: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 .card-content__button {
@@ -32,4 +33,5 @@
   background: $c-app-button;
   padding: 0.5rem;
   color: $c-white;
+  text-decoration: none;
 }

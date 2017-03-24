@@ -2,17 +2,17 @@
   <div class="content">
     <p class="content-heading">Add New Manufacturer</p>
     <div class="form-content">
-      <form action="" class="form">
+      <form {{action "saveBrand" on="submit"}} class="form">
         <p>
-          <input type="text" class="form-input" placeholder="Company Name">
+          {{input type="text" class="form-input" placeholder="Company Name" value=formValues.name}}
         </p>
         <p>
-          <input type="text" class="form-input" placeholder="ISO Country Code">
+          {{input type="text" class="form-input" placeholder="ISO Country Code" value=formValues.country}}
         </p>
 
         <div class="buttons">
           {{#link-to "manufacturers" class="card-content__back-button" }}Back{{/link-to}}
-          <button type="button" name="button" class="card-content__button">Submit</button>
+          <button type="submit" name="button" class="card-content__button">Submit</button>
         </div>
       </form>
     </div>
