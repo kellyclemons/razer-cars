@@ -1,18 +1,39 @@
-.card-content {
-  font-size: 0.8rem;
+.content-container {
+  margin: 2rem;
+}
 
+.content {
+  border: 1px solid $c-app-grey;
+}
+
+.content-heading {
+  font-size: 1.2rem;
+  border-bottom: 1px solid $c-app-grey;
+  margin: 0;
+  padding: 1rem;
+  background: $c-app-lightgrey;
+}
+
+.content-table {
+  font-size: 0.8rem;
+  width: 100%;
+  border-spacing: 0;
+  padding: 1rem;
 }
 
 .table-titles {
   background: $c-app-table-title;
   color: $c-white;
-  display: flex;
-  justify-content: space-between;
+
+
+
+  &__title {
+    // display: flex;
+    // flex-direction: row;
+  }
 }
 
 .table-items {
   background: $c-app-grey;
   color: $c-white;
-  display: flex;
-  justify-content: space-between;
 }

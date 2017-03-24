@@ -1,0 +1,20 @@
+.form-input {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.buttons {
+  margin: 0;
+  background: $c-app-grey;
+  padding: 0.8rem;
+}
+
+.card-content__back-button {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  border: none;
+  background: $c-app-aqua;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: $c-white;
+}

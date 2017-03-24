@@ -1,21 +1,24 @@
-<div class="card-container">
-  <div class="card">
-    <p class="card-heading">Hello</p>
-    <table class="card-content">
-      <div class="table-titles">
-        <p class="table-titles__title">Manufacturer</p>
-        <p class="table-titles__title">Country</p>
-        <p class="table-titles__title">Number of Models</p>
-        <p class="table-titles__title"></p>
-      </div>
-              {{#each model as |model|}}
-              <div class="table-items">
-                <p class="table-item__title">{{model.name}}</p>
-                <p class="table-item__title">{{model.country}}</p>
-                <p class="table-item__title">{{model.length}}</p>
-                <p class="table-item__title">Read More</p>
-              </div>
-        {{/each}}
+<div class="content-container">
+  <div class="content">
+    <p class="content-heading">Hello</p>
+    <table class="content-table">
+      <thead class="table-titles">
+        <tr>
+          <th class="table-titles__title">Manufacturer</th>
+          <th class="table-titles__title">Country</th>
+          <th class="table-titles__title">Number of Models</th>
+          <th class="table-titles__title"></th>
+        </tr>
+      </thead>
+      <tbody>
+          {{#each model as |model|}}
+          <tr class="table-items">
+            <td class="table-item__title">{{model.name}}</td>
+            <td class="table-item__title">{{model.country}}</td>
+            <td class="table-item__title">{{model.length}}</td>
+            <td class="table-item__title">Read More</td>
+          </tr>
+          {{/each}}</tbody>
     </table>
   </div>
 </div>
